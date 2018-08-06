@@ -1,0 +1,385 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Sample User Interface">
+    <meta name="keywords" content="keytech, design layout, frontend">
+    <meta name="author" content="Tony Tang">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="timeline.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Logo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Expertise</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Awards</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Contacts</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <ul class="navbar-nav navbar-right">
+                <li class="nav-item">
+                    <a class="nav-link " href="#">中</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Eng</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About-->
+
+    <div class="jumbotron">
+        <h1 class="display-4">Photo</h1>
+        <hr class="my-4">
+        <p class="lead">About</p>
+        <p class="description">Introduction...</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </p>
+    </div>
+
+    <!-- Expertise-->
+    <div class="container">
+        <div class="expertise" style="text-align: center;margin-bottom:20px; font-size:40px;font-weight: strong">Expertise </div>
+    </div>
+    <div class="card-deck">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content
+                    is a little bit longer.</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has
+                    even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has
+                    even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+        </div>
+    </div>
+
+    <!--Timeline-->
+    <div class="container">
+        <div class="timeline-body">
+            <div class="page-header">
+                <h1 id="timeline">News and awards</h1>
+            </div>
+            <ul class="timeline">
+                <li>
+                    <div class="timeline-badge">
+                        <i class="glyphicon glyphicon-check"></i>
+                    </div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                            <p>
+                                <small class="text-muted">
+                                    <i class="glyphicon glyphicon-time"></i> 11 hours ago via Twitter</small>
+                            </p>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis
+                                porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros
+                                vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois
+                                paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso
+                                pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-badge warning">
+                        <i class="glyphicon glyphicon-credit-card"></i>
+                    </div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis
+                                porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros
+                                vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois
+                                paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso
+                                pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                            <p>Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Interagi no
+                                mé, cursus quis, vehicula ac nisi. Aenean vel dui dui. Nullam leo erat, aliquet quis tempus
+                                a, posuere ut mi. Ut scelerisque neque et turpis posuere pulvinar pellentesque nibh ullamcorper.
+                                Pharetra in mattis molestie, volutpat elementum justo. Aenean ut ante turpis. Pellentesque
+                                laoreet mé vel lectus scelerisque interdum cursus velit auctor. Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit. Etiam ac mauris lectus, non scelerisque augue. Aenean justo
+                                massa.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-badge danger">
+                        <i class="glyphicon glyphicon-credit-card"></i>
+                    </div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis
+                                porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros
+                                vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois
+                                paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso
+                                pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!--Partners-->
+    <div class="partner" style="margin-top:50px;background-color:#E9ECEF;padding:40px;">
+        <div class="container">
+            <h1 style="text-align:center;padding:20px;">Our partners </h1>
+            <div class="row" style="line-height:10px; padding-bottom:10px;">
+                <div class="col">
+                    <img src="..." class="rounded" alt="..." style="height:150px;">
+                    <img src="..." class="rounded" alt="..." style="height:150px;">
+                    <img src="..." class="rounded" alt="..." style="height:150px;">
+                    <img src="..." class="rounded" alt="..." style="height:150px;">
+                    <img src="..." class="rounded" alt="..." style="height:150px;">
+                    <img src="..." class="rounded" alt="..." style="height:150px;">
+                    <img src="..." class="rounded" alt="..." style="height:150px;">
+                </div>
+            </div>
+            <div class="row" style="line-height:10px; padding-bottom:10px;">
+                <div class="col">
+                    <img src="..." class="rounded" alt="..." style="height:150px;">
+                    <img src="..." class="rounded" alt="..." style="height:150px;">
+                    <img src="..." class="rounded" alt="..." style="height:150px;">
+                    <img src="..." class="rounded" alt="..." style="height:150px;">
+                    <img src="..." class="rounded" alt="..." style="height:150px;">
+                    <img src="..." class="rounded" alt="..." style="height:150px;">
+                    <img src="..." class="rounded" alt="..." style="height:150px;">
+
+                </div>
+            </div>
+            <div class="row" style="line-height:10px; padding-bottom:10px;">
+                <div class="col">
+                    <img src="..." class="rounded" alt="..." style="height:150px;">
+                    <img src="..." class="rounded" alt="..." style="height:150px;">
+                    <img src="..." class="rounded" alt="..." style="height:150px;">
+                    <img src="..." class="rounded" alt="..." style="height:150px;">
+                    <img src="..." class="rounded" alt="..." style="height:150px;">
+                    <img src="..." class="rounded" alt="..." style="height:150px;">
+                    <img src="..." class="rounded" alt="..." style="height:150px;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact">
+        <div class="container">
+            <h1 style="text-align:center;padding:20px;">Contacts </h1>
+            <form>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Please enter your email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Enquiries</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="map" style="padding:200px;background-color: #E9ECEF;">
+        <h1 style="text-align: center">Google Map</h1>
+    </div>
+
+    <div class="footer-middle">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <!--Column1-->
+                    <div class="footer-pad">
+                        <h4>Address</h4>
+                        <address>
+                            <ul class="list-unstyled">
+                                <li>
+                                    City Hall
+                                    <br> 212 Street
+                                    <br> Lawoma
+                                    <br> 735
+                                    <br>
+                                </li>
+                                <li>
+                                    Phone: 0
+                                </li>
+                            </ul>
+                        </address>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <!--Column1-->
+                    <div class="footer-pad">
+                        <h4>Popular Services</h4>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#"></a>
+                            </li>
+                            <li>
+                                <a href="#">Payment Center</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact Directory</a>
+                            </li>
+                            <li>
+                                <a href="#">Forms</a>
+                            </li>
+                            <li>
+                                <a href="#">News and Updates</a>
+                            </li>
+                            <li>
+                                <a href="#">FAQs</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <!--Column1-->
+                    <div class="footer-pad">
+                        <h4>Website Information</h4>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#">Website Tutorial</a>
+                            </li>
+                            <li>
+                                <a href="#">Accessibility</a>
+                            </li>
+                            <li>
+                                <a href="#">Disclaimer</a>
+                            </li>
+                            <li>
+                                <a href="#">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="#">FAQs</a>
+                            </li>
+                            <li>
+                                <a href="#">Webmaster</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <!--Column1-->
+                    <div class="footer-pad">
+                        <h4>Contacts</h4>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#">YYYYY</a>
+                            </li>
+                            <li>
+                                <a href="#">XXXXX</a>
+                            </li>
+                            <li>
+                                <a href="#">ZZZZZ</a>
+                            </li>
+                            <li>
+                                <a href="#">AAAAA</a>
+                            </li>
+                            <li>
+                                <a href="#">BBBBB</a>
+                            </li>
+                            <li>
+                                <a href="#"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <!--Footer Bottom-->
+                    <p class="text-xs-center">&copy; Copyright 2018 - All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </footer>
+
+
+</body>
+
+</html>
